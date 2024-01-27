@@ -360,6 +360,7 @@
 "Assets/Script/Interactable.cs"
 "Assets/Script/Interactables/Keypad.cs"
 "Assets/Script/InteractionEvent.cs"
+"Assets/Script/Player/PlayerHealth.cs"
 "Assets/Script/Player/PlayerInteract.cs"
 "Assets/Script/Player/PlayerLook.cs"
 "Assets/Script/Player/PlayerMotor.cs"

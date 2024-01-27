@@ -6,6 +6,7 @@ public class InteractableEditor : Editor
     public override void OnInspectorGUI()
     {
         Interactable interactable = (Interactable)target;
+         
         if (target.GetType()==typeof(EventOnlyInteractable))
         {
             interactable.promptMessage = EditorGUILayout.TextField("Prompt Message", interactable.promptMessage);
