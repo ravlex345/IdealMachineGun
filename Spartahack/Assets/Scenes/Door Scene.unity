@@ -2985,7 +2985,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5000001
-  m_Speed: 3.5
+  m_Speed: 0
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -3076,13 +3076,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1829872808}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.036536276, y: 0.0000337618, z: 0.069178104, w: 0.99693507}
+  m_LocalRotation: {x: -0.07622881, y: 0.75424314, z: 0.017597709, w: 0.65191776}
   m_LocalPosition: {x: 4.19, y: 0.56, z: 24.18}
   m_LocalScale: {x: 0.596341, y: 3.3101928, z: 0.8119326}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: -4.178, y: -0.287, z: 7.949}
+  m_LocalEulerAnglesHint: {x: -7.235, y: 98.661, z: -5.324}
 --- !u!114 &1829872814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3109,6 +3109,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentState: 
   path: {fileID: 1468145779}
+  sightDistance: 20
+  fieldOfView: 85
+  eyeHeight: 0.6
 --- !u!1 &1833804469
 GameObject:
   m_ObjectHideFlags: 0
