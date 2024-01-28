@@ -9,8 +9,9 @@ public abstract class Interactable : MonoBehaviour
     public void BaseInteract()
     {
         if (useEvents)
+        {
             GetComponent<InteractionEvent>().OnInteract.Invoke();
-            
+        }
         Interact();
     }
     protected virtual void Interact()
